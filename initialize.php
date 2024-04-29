@@ -1,7 +1,7 @@
 <?php
 $dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=>'dev_oretnom','password'=>'5da283a2d990e8d8512cf967df5bc0d0','last_login'=>'','date_updated'=>'','date_added'=>'');
 $server_ip = $_SERVER['SERVER_ADDR'];
-if(!defined('base_url')) define('base_url',$_SERVER);
+if(!defined('base_url')) define('base_url', $_SERVER['HTTP_HOST']);
 
 // if(!defined('base_url')) define('base_url','http://3.91.139.179/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
