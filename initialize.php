@@ -4,7 +4,7 @@ if(!defined('base_url')) define('base_url','http://localhost/cdcms');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 if(!defined('dev_data')) define('dev_data',$dev_data);
 
-php test
+// php test
 if(!defined('DB_SERVER')) define('DB_SERVER',"project-php.ca6crwpmxkgt.us-east-1.rds.amazonaws.com");
  if(!defined('DB_USERNAME')) define('DB_USERNAME',"admin");
  if(!defined('DB_PASSWORD')) define('DB_PASSWORD',"adminadmin");
